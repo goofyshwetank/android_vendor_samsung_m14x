@@ -1,0 +1,6 @@
+service boot_logger /vendor/bin/boot_logger.sh
+    class core
+    user root
+    group root log system
+    seclabel u:r:init:s0
+    oneshot

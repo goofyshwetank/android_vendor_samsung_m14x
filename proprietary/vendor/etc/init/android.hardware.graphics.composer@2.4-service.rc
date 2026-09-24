@@ -1,0 +1,11 @@
+service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@2.4-service
+    class hal animation
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+    task_profiles HighPerformance GpisSfCpusetJoin
+    interface android.hardware.graphics.composer@2.1::IComposer default
+    interface android.hardware.graphics.composer@2.2::IComposer default
+    interface android.hardware.graphics.composer@2.3::IComposer default
+    interface android.hardware.graphics.composer@2.4::IComposer default
