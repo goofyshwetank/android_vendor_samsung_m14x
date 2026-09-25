@@ -793,7 +793,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m14x/proprietary/vendor/lib64/libface_landmark.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libface_landmark.arcsoft.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfocuspeaking.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libfocuspeaking.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfocuspeaking.uniplugin@1.0.so \
-    vendor/samsung/m14x/proprietary/vendor/lib64/libformatConverter.unifunc@common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatConverter.unifunc@common.so \
+    vendor/samsung/m14x/proprietary/vendor/lib64/libformatConverter.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatConverter.unifunc.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libgiantmscl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgiantmscl.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libgmc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgmc.so \
