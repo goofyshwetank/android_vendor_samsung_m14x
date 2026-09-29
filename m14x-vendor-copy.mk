@@ -640,7 +640,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m14x/proprietary/vendor/lib64/libbinderdebug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinderdebug.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libcodec2_hidl@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.2.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vndk.so \
-    vendor/samsung/m14x/proprietary/vendor/lib64/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp.so \
+#REMOVED: Samsung prebuilt overrides AOSP source -     vendor/samsung/m14x/proprietary/vendor/lib64/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libdatamod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdatamod.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libdk_vnd_service_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdk_vnd_service_core.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrm.so \
@@ -651,8 +651,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m14x/proprietary/vendor/lib64/libgrallocusage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocusage.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidltransport.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libhypervintf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypervintf.so \
-    vendor/samsung/m14x/proprietary/vendor/lib64/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages.so \
-    vendor/samsung/m14x/proprietary/vendor/lib64/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/liblastaboxmsg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblastaboxmsg.so \
@@ -660,7 +658,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m14x/proprietary/vendor/lib64/libmeminfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeminfo.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libmemunreachable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemunreachable.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
-    vendor/samsung/m14x/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
+#REMOVED: Samsung prebuilt overrides AOSP source -     vendor/samsung/m14x/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecordalive.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudioinfo.so \
@@ -669,7 +667,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m14x/proprietary/vendor/lib64/libsehbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsehbluetooth_audio_session_aidl.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsemnativecarrierfeature.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
-    vendor/samsung/m14x/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
+#REMOVED: Samsung prebuilt overrides AOSP source -     vendor/samsung/m14x/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteecl.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
@@ -775,7 +773,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m14x/proprietary/vendor/lib64/libcodec2_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ac4dec.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_common.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libcodec2_soft_eac3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_eac3dec.so \
-    vendor/samsung/m14x/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
+#REMOVED: Samsung prebuilt overrides AOSP source -     vendor/samsung/m14x/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg.so \
     vendor/samsung/m14x/proprietary/vendor/lib64/libdlrmsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlrmsc.so \
