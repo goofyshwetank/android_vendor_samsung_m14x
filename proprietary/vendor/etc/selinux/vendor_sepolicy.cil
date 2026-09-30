@@ -19316,3 +19316,4 @@
 (allow hal_gatekeeper_default hal_sharedsecret_service_33_0 (service_manager (add find)))
 (allow keystore_33_0 hal_gatekeeper_default (binder (call)))
 (allow vendor_init_33_0 sysfs_ss_writable (file (write open getattr)))
+(allow init_33_0 vendor_shell_33_0 (process (transition rlimitinh siginh noatsecure)))
