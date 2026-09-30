@@ -617,6 +617,13 @@ PRODUCT_PACKAGES += \
     libremosaic_wrapper \
     libremosaiclib \
     libril_sem \
+    rild_exynos \
+    lib_profiler-samsung \
+    libaudioroute-samsung \
+    libtinyalsa-samsung \
+    libbt-exynos \
+    android.hardware.bluetooth@1.0-impl-samsung \
+    android.hardware.bluetooth@1.1-service.samsung \
     libsamsungcamerahal \
     libsamsungcamerahalutils \
     libsamsungcamerahwl_impl \

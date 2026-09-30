@@ -3,7 +3,7 @@
 # restart cpboot-daemon, DIAG-daemon for LSI
 # restart cpboot-daemon5g for LSI beyondx, d1x, d2x, it could be removed.
 
-service ril-daemon /vendor/bin/hw/rild
+service ril-daemon /vendor/bin/hw/rild_exynos
     class main
     user radio
     group radio cache inet misc audio log oem_2901 system drmrpc vpn readproc wakelock net_admin

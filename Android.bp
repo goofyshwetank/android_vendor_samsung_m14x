@@ -402,8 +402,8 @@ cc_prebuilt_library_shared {
                 "libsecaudiolevel",
                 "libaboxpcmdump",
                 "liblastaboxmsg",
-                "libaudioroute",
-                "libtinyalsa",
+                "libaudioroute-samsung",
+                "libtinyalsa-samsung",
                 "libaudioparamupdate",
                 "libc++",
                 "libc",
@@ -428,8 +428,8 @@ cc_prebuilt_library_shared {
                 "libsecaudiolevel",
                 "libaboxpcmdump",
                 "liblastaboxmsg",
-                "libaudioroute",
-                "libtinyalsa",
+                "libaudioroute-samsung",
+                "libtinyalsa-samsung",
                 "libaudioparamupdate",
                 "libc++",
                 "libc",
@@ -2027,12 +2027,12 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libtinyalsa",
+                "libtinyalsa-samsung",
                 "libutils",
                 "libdatamod",
                 "libhardware_legacy",
                 "libexpat",
-                "libaudioroute",
+                "libaudioroute-samsung",
                 "libc++",
                 "libc",
                 "libm",
@@ -2046,12 +2046,12 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libtinyalsa",
+                "libtinyalsa-samsung",
                 "libutils",
                 "libdatamod",
                 "libhardware_legacy",
                 "libexpat",
-                "libaudioroute",
+                "libaudioroute-samsung",
                 "libc++",
                 "libc",
                 "libm",
@@ -2124,7 +2124,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libaudioutils",
-                "libtinyalsa",
+                "libtinyalsa-samsung",
                 "libc++",
                 "libc",
                 "libm",
@@ -2139,7 +2139,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libaudioutils",
-                "libtinyalsa",
+                "libtinyalsa-samsung",
                 "libc++",
                 "libc",
                 "libm",
@@ -2251,8 +2251,8 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libutils",
-                "libtinyalsa",
-                "libaudioroute",
+                "libtinyalsa-samsung",
+                "libaudioroute-samsung",
                 "libc++",
                 "libc",
                 "libm",
@@ -2267,8 +2267,8 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libutils",
-                "libtinyalsa",
-                "libaudioroute",
+                "libtinyalsa-samsung",
+                "libaudioroute-samsung",
                 "libc++",
                 "libc",
                 "libm",
@@ -2299,8 +2299,8 @@ cc_prebuilt_library_shared {
                 "libexpat",
                 "libtinycompress",
                 "libaudioutils",
-                "libtinyalsa",
-                "libaudioroute",
+                "libtinyalsa-samsung",
+                "libaudioroute-samsung",
                 "libalsautils_sec",
                 "libsehbluetooth_audio_session_aidl",
                 "vendor.samsung.hardware.bluetooth.audio-V1-ndk",
@@ -2330,8 +2330,8 @@ cc_prebuilt_library_shared {
                 "libexpat",
                 "libtinycompress",
                 "libaudioutils",
-                "libtinyalsa",
-                "libaudioroute",
+                "libtinyalsa-samsung",
+                "libaudioroute-samsung",
                 "libalsautils_sec",
                 "libsehbluetooth_audio_session_aidl",
                 "vendor.samsung.hardware.bluetooth.audio-V1-ndk",
@@ -2395,7 +2395,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-// libbt-vendor: removed (AOSP source module exists)
 
 // libcamera2ndk_vendor: removed (AIDL version conflict with AOSP 15)
 
@@ -5370,7 +5369,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "liblog",
-                "libtinyalsa",
+                "libtinyalsa-samsung",
                 "libsecaudioinfo",
                 "libc++",
                 "libc",
@@ -5386,7 +5385,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "liblog",
-                "libtinyalsa",
+                "libtinyalsa-samsung",
                 "libsecaudioinfo",
                 "libc++",
                 "libc",
@@ -6126,9 +6125,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-// libaudioroute: removed (AOSP source module exists)
 
-// libtinyalsa: removed (AOSP source module exists)
 
 // android.hardware.cas.native@1.0: removed (AOSP source module exists)
 
@@ -7042,7 +7039,6 @@ cc_prebuilt_library_shared {
 
 // android.system.wifi.keystore@1.0: removed (AOSP source module exists)
 
-// android.hardware.bluetooth@1.0-impl: removed (AOSP source module exists)
 
 cc_prebuilt_library_shared {
     name: "camera.s5e8535",
@@ -7343,7 +7339,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-// lib_profiler: removed (AOSP source module exists)
 
 // libbinderdebug: removed (AOSP source module exists)
 
@@ -11321,7 +11316,6 @@ cc_prebuilt_binary {
 
 // android.hardware.audio.service: removed (AOSP source module exists)
 
-// android.hardware.bluetooth@1.1-service: removed (AOSP source module exists)
 
 // android.hardware.cas@1.2-service-lazy: removed (AOSP source module exists)
 
@@ -11636,7 +11630,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-// rild: removed (AOSP source module exists)
 
 cc_prebuilt_binary {
     name: "samsung.hardware.media.c2@1.2-service",
@@ -12986,5 +12979,226 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudioroute-samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libaudioroute-samsung.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libexpat",
+                "libtinyalsa-samsung",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libaudioroute-samsung.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libexpat",
+                "libtinyalsa-samsung",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtinyalsa-samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libtinyalsa-samsung.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libtinyalsa-samsung.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib_profiler-samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/lib_profiler-samsung.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbt-exynos",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libbt-exynos.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.bluetooth@1.0-impl-samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-samsung.so",
+            ],
+            shared_libs: [
+                "vendor.samsung.hardware.bluetooth@2.0",
+                "android.hardware.bluetooth@1.0",
+                "libbase",
+                "libcutils",
+                "libhardware",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.bluetooth@1.1-service.samsung",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service.samsung",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libbase",
+                "libutils",
+                "libhardware",
+                "libhidlbase",
+                "android.hardware.bluetooth@1.0-impl-samsung",
+                "android.hardware.bluetooth@1.1",
+                "vendor.samsung.hardware.bluetooth@2.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "rild_exynos",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/rild_exynos",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libril_sem",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    relative_install_path: "hw",
     soc_specific: true,
 }
