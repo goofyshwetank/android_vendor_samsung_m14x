@@ -197,3 +197,4 @@ vendor.samsung_slsi.hardware.epic.IEpicRequest/default		u:object_r:hal_vendor_ep
 # empty service_contexts file - this file is used to generate an empty
 # non-platform service_context for devices without any service_contexts
 # customizations.
+android.hardware.security.sharedsecret.ISharedSecret/gatekeeper u:object_r:hal_sharedsecret_service:s0

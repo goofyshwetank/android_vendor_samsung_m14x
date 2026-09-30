@@ -19313,3 +19313,5 @@
 (typeattribute base_typeattr_555_33_0)
 (typeattributeset base_typeattr_555_33_0 (and (domain) (not (coredomain init_33_0 vendor_init_33_0))))
 
+(allow hal_gatekeeper_default hal_sharedsecret_service_33_0 (service_manager (add find)))
+(allow keystore_33_0 hal_gatekeeper_default (binder (call)))
