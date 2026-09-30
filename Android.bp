@@ -5051,7 +5051,50 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-// libwifi-hal: removed (AOSP source module exists)
+cc_prebuilt_library_shared {
+    name: "libwifi-hal-samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libwifi-hal-samsung.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "liblog",
+                "libnl",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libwifi-hal-samsung.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "liblog",
+                "libnl",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
 
 // libwpa_client: removed (AOSP source module exists)
 
@@ -11469,7 +11512,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libnl",
                 "libutils",
-                "libwifi-hal",
+                "libwifi-hal-samsung",
                 "libwifi-system-iface",
                 "libxml2",
                 "android.hardware.wifi@1.0",
@@ -12331,7 +12374,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libnl",
                 "libutils",
-                "libwifi-hal",
+                "libwifi-hal-samsung",
                 "libwifi-system-iface",
                 "libz",
                 "android.hardware.wifi@1.0",
