@@ -514,7 +514,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m14x/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
     vendor/samsung/m14x/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
     vendor/samsung/m14x/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    vendor/samsung/m14x/proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/bluetooth_audio.xml \
     vendor/samsung/m14x/proprietary/vendor/etc/vintf/manifest/dmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/dmd.xml \
     vendor/samsung/m14x/proprietary/vendor/etc/vintf/manifest/dumpstate-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/dumpstate-default.xml \
     vendor/samsung/m14x/proprietary/vendor/etc/vintf/manifest/engmode_manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/engmode_manifest.xml \

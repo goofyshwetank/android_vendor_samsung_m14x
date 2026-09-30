@@ -10795,15 +10795,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "bluetooth_audio.xml",
-    owner: "samsung",
-    src: "proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "dmd.xml",
     owner: "samsung",
     src: "proprietary/vendor/etc/vintf/manifest/dmd.xml",

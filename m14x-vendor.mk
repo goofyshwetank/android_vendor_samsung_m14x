@@ -707,7 +707,6 @@ PRODUCT_PACKAGES += \
     com.samsung.android.camera.unihal.signed \
     android.hardware.usb@1.3-service.coral.xml \
     android.hardware.wifi@1.0-service.xml \
-    bluetooth_audio.xml \
     dmd.xml \
     engmode_manifest.xml \
     face-default-sec.xml \

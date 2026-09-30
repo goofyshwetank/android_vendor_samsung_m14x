@@ -19317,3 +19317,4 @@
 (allow keystore_33_0 hal_gatekeeper_default (binder (call)))
 (allow vendor_init_33_0 sysfs_ss_writable (file (write open getattr)))
 (allow init_33_0 vendor_shell_33_0 (process (transition rlimitinh siginh noatsecure)))
+(allow hal_camera_default fwk_sensor_service (service_manager (find)))
