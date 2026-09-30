@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m14x/proprietary/vendor/etc/init/epic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/epic.rc \
     vendor/samsung/m14x/proprietary/vendor/etc/init/face-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/face-default-sec.rc \
     vendor/samsung/m14x/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
-    vendor/samsung/m14x/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/samsung/m14x/proprietary/vendor/etc/init/hyper-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hyper-default-sec.rc \
     vendor/samsung/m14x/proprietary/vendor/etc/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
     vendor/samsung/m14x/proprietary/vendor/etc/init/init.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.rc \
