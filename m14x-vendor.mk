@@ -630,7 +630,7 @@ PRODUCT_PACKAGES += \
     libsamsungcamerahwl_impl \
     libscaler_hw.unifunc \
     libscaler_sw.unifunc \
-    libsec-ril \
+    libsec-ril-impl \
     libsec2lsi_conversion \
     libsec_skpmHalTlc \
     libsensorlistener \
