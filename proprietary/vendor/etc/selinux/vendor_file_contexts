@@ -866,7 +866,6 @@
 /mnt/vendor/efs/cirrus(/.*)?                                u:object_r:sec_efs_file:s0
 /data/system/container(/.*)?	u:object_r:container_system_file:s0
 /dev/socket/rild-debug[0-9]* u:object_r:rild_debug_socket:s0
-/sys/kernel/debug/asoc(/.*)?                              u:object_r:sec_kernel_debugfs:s0
 /dev/socket/wsm_socket(/.*)?	    u:object_r:wsm_socket:s0
 /sys/class/sec/sec_key(/.*)?                       u:object_r:sysfs_ss_writable:s0
 /data/vendor/keymaster(/.*)?                  u:object_r:vendor_keymaster_data_file:s0
@@ -893,8 +892,6 @@
 /mnt/vendor/efs/richtek(/.*)?	                         u:object_r:sec_efs_file:s0
 /mnt/vendor/efs/sec_efs(/.*)?                               u:object_r:sec_efs_file:s0
 /mnt/vendor/efs/tas25xx(/.*)?                                u:object_r:sec_efs_file:s0
-/sys/kernel/debug/zswap(/.*)?              u:object_r:sec_kernel_debugfs:s0
-/sys/kernel/debug/decon(/.*)?              u:object_r:sec_kernel_debugfs:s0
 /data/misc/wifi_hostapd(/.*)?           u:object_r:sec_wifi_data_file:s0
 /data/sse_initial_entry(/.*)?		              u:object_r:sem_data_file:s0
 /data/system/hdcp2_1013(/.*)?                     u:object_r:mediaserver_data_file:s0
@@ -930,7 +927,6 @@
 /mnt/vendor/efs/sktdm_mem(/.*)?                             u:object_r:sec_efs_file:s0
 /data/vendor/log/audiopcm(/.*)?         u:object_r:vendor_audiopcm_data_file:s0
 /sys/block/mmcblk0/device(/.*)?                		u:object_r:sysfs_ss_writable:s0
-/sys/kernel/debug/nanohub(/.*)?                  u:object_r:sec_kernel_debugfs:s0
 /mnt/vendor/efs/prov_data(/.*)?	                             u:object_r:dak_efs_file:s0
 /sys/kernel/exynos_pm_qos(/.*)?					u:object_r:sysfs_exynos_pm_qos:s0
 /sys/class/dsm/maxdsm_cal(/.*)?                --     u:object_r:sysfs_ss_writable:s0
@@ -953,7 +949,6 @@
 /data/system/secure_storage(/.*)?               u:object_r:secure_storage_data_file:s0
 /data/vendor/secure_storage(/.*)?               u:object_r:secure_storage_vendor_data_file:s0
 /mnt/vendor/efs/ims_setting(/.*)?                           u:object_r:sec_efs_file:s0
-/sys/kernel/debug/frontswap(/.*)?              u:object_r:sec_kernel_debugfs:s0
 /sys/class/sec/sec_hw_param(/.*)?                  u:object_r:sysfs_ss_writable:s0
 /sys/class/dsm/maxdsm_power(/.*)?                         u:object_r:sysfs_maxdsm_power:s0
 /sys/class/cirrus/cirrus_bd(/.*)?                  u:object_r:sysfs_ss_writable:s0
@@ -980,7 +975,6 @@
 /data/misc/fips_tima_keystore(/.*)?		u:object_r:tima_keystore_file:s0
 /data/misc/wifi_share_profile(/.*)?          u:object_r:wifishare_profile_data_file:s0
 /sys/module/scsc_mx/parameters(/.*)?                  u:object_r:sysfs_wifi:s0
-/sys/kernel/debug/uh/uh_inform(/.*)?                    u:object_r:sec_kernel_debugfs:s0
 /data/knox/secure_fs/enc_media(/.*)?	        u:object_r:media_rw_data_file:s0
 /sys/class/spk_params/cal_data(/.*)?               u:object_r:sysfs_ss_writable:s0
 /sys/devices/virtual/lcd/panel(/.*)?     u:object_r:sysfs_lcd_writable:s0
@@ -1467,14 +1461,12 @@ dev/ttyACM0           																	u:object_r:acm_device:s0
 /sys/class/mstldo/mst_drv/transmit         u:object_r:sysfs_mst_writable:s0
 /sys/module/cpuidle/parameters/off         u:object_r:sysfs_ss_writable:s0
 /vendor/lib64/libbccArm_valhall\.so                             u:object_r:same_process_hal_file:s0
-/sys/kernel/debug/scsc/ring0/samlog                   u:object_r:sec_kernel_debugfs:s0
 /sys/power/cluster0_core_hotplug_in                           u:object_r:sysfs_ss_writable:s0
 /sys/class/power_supply/battery/lcd           u:object_r:sysfs_ss_writable:s0
 /dev/dma_heap/video_system-uncached     u:object_r:dmabuf_system_heap_device:s0
 /sys/kernel/ems/emstune/sched_boost		u:object_r:ems_file:s0
 /sys/kernel/exynos_perf_cpufreq/gov		u:object_r:sysfs:s0
 /sys/kernel/exynos_perf_cpufreq/run		u:object_r:sysfs:s0
-/sys/kernel/debug/fault_around_bytes             u:object_r:sec_kernel_debugfs:s0
 /vendor/bin/hw/wait_for_dual_keymint                                                    u:object_r:wait_for_dual_keymint_exec:s0
 /sys/class/power_supply/battery/music                      u:object_r:sysfs_app_writable:s0
 /sys/class/power_supply/battery/video                       u:object_r:sysfs_app_writable:s0
