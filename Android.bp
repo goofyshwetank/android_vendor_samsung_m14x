@@ -8832,7 +8832,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libskeymint10device.so",
             ],
             shared_libs: [
-                "libcrypto",
+                "libcrypto-v33",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -8880,7 +8880,7 @@ cc_prebuilt_library_shared {
                 "libkeymaster4support",
                 "libkeymaster4_1support",
                 "libhidlbase",
-                "libcrypto",
+                "libcrypto-v33",
                 "libbinder_ndk",
                 "libsecril-client",
                 "android.hardware.security.keymint-V2-ndk",

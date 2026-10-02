@@ -11,6 +11,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m14x/proprietary/odm/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_ODM)/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256 \
     vendor/samsung/m14x/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
     vendor/samsung/m14x/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.samsung \
+    vendor/samsung/m14x/proprietary/vendor/lib64/libcppcose_rkp-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp-samsung.so \
+    vendor/samsung/m14x/proprietary/vendor/lib64/libkeymaster_messages-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages-samsung.so \
+    vendor/samsung/m14x/proprietary/vendor/lib64/libkeymaster_portable-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable-samsung.so \
+    vendor/samsung/m14x/proprietary/vendor/lib64/libpuresoftkeymasterdevice-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice-samsung.so \
+    vendor/samsung/m14x/proprietary/vendor/lib64/libsoft_attestation_cert-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert-samsung.so \
     vendor/samsung/m14x/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/m14x/proprietary/vendor/etc/a2dpsink_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dpsink_audio_policy_configuration.xml \
     vendor/samsung/m14x/proprietary/vendor/etc/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
