@@ -7,7 +7,6 @@
                 <item>Earpiece</item>
                 <item>Speaker</item>
                 <item>Built-In Mic</item>
-                <item>Built-In Back Mic</item>
                 <item>Voice Call Mic</item>
             </attachedDevices>
             <defaultOutputDevice>Speaker</defaultOutputDevice>
@@ -47,9 +46,6 @@
                 <devicePort role="source" tagName="Built-In Mic" type="AUDIO_DEVICE_IN_BUILTIN_MIC">
                     <profile channelMasks="AUDIO_CHANNEL_IN_MONO AUDIO_CHANNEL_IN_STEREO AUDIO_CHANNEL_IN_FRONT_BACK" format="AUDIO_FORMAT_PCM_16_BIT" name="" samplingRates="8000 11025 12000 16000 22050 24000 32000 44100 48000" />
                 </devicePort>
-                <devicePort role="source" tagName="Built-In Back Mic" type="AUDIO_DEVICE_IN_BACK_MIC">
-                    <profile channelMasks="AUDIO_CHANNEL_IN_MONO AUDIO_CHANNEL_IN_STEREO AUDIO_CHANNEL_IN_FRONT_BACK" format="AUDIO_FORMAT_PCM_16_BIT" name="" samplingRates="8000 11025 12000 16000 22050 24000 32000 44100 48000" />
-                </devicePort>
                 <devicePort role="source" tagName="Wired Headset Mic" type="AUDIO_DEVICE_IN_WIRED_HEADSET">
                     <profile channelMasks="AUDIO_CHANNEL_IN_MONO AUDIO_CHANNEL_IN_STEREO AUDIO_CHANNEL_IN_FRONT_BACK" format="AUDIO_FORMAT_PCM_16_BIT" name="" samplingRates="8000 11025 12000 16000 22050 24000 32000 44100 48000" />
                 </devicePort>
@@ -72,7 +68,7 @@
                 <route sink="Wired Headset" sources="primary-out,fast" type="mix" />
                 <route sink="Wired Headphone" sources="primary-out,fast" type="mix" />
                 <route sink="Bt Sco All" sources="primary-out,fast" type="mix" />
-                <route sink="primary-in" sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,Bt Sco Headset Mic,Aux Device In,Voice Call Mic,FM Mic" type="mix" />
+                <route sink="primary-in" sources="Built-In Mic,Wired Headset Mic,Bt Sco Headset Mic,Aux Device In,Voice Call Mic,FM Mic" type="mix" />
             </routes>
         </module>
         <module halVersion="2.0" name="a2dpsink">

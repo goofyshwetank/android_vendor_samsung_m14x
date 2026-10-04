@@ -60,8 +60,15 @@
     </effects>
 
     <preprocess>
+        <stream type="mic">
+            <apply effect="ns"/>
+        </stream>
+        <stream type="camcorder">
+            <apply effect="ns"/>
+        </stream>
         <stream type="voice_communication">
             <apply effect="aec"/>
+            <apply effect="ns"/>
         </stream>
     </preprocess>
 
